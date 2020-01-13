@@ -8,3 +8,8 @@ def naming_system
   reche
 end
 
+curr = naming_system
+for i in 0...hierarchy.length do
+  put "Level #{i}: #{curr[:label]}"
+  curr = curr[:sub_category]
+end
