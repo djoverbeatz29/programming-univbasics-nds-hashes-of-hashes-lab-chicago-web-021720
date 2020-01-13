@@ -46,8 +46,8 @@ hierarchy = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"
 reche = {}
 N = hierarcy.length - 1
 for i in 0...(hierarchy.N) do
-  reche[i]
+  name = hierarchy[i]
   for j in 0..i do
-    r
+    reche[]
   
 end
