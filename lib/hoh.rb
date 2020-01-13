@@ -51,6 +51,6 @@ def naming_system
     for j in 0..i do
       rcopy = rcopy[:sub_category]
     end
-
+  
   
 end
