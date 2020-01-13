@@ -46,7 +46,8 @@ hierarchy = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"
 reche = {}
 N = hierarcy.length - 1
 for i in 0...(hierarchy.N) do
-  curr_key = hierarchy[i]
-  curr_subhash = {}
+  reche[i]
+  for j in 0..i do
+    r
   
 end
