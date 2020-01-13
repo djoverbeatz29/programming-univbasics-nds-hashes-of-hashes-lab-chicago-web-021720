@@ -10,6 +10,6 @@ end
 
 curr = naming_system
 for i in 0...7 do
-  put "Level #{i}: #{curr[:label]}"
+  puts "Level #{i}: #{curr[:label]}"
   curr = curr[:sub_category]
 end
