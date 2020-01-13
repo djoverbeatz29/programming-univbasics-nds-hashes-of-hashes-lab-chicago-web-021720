@@ -46,7 +46,7 @@ def naming_system
   N = hierarchy.length - 1
   reche = {:label => hierarchy[N], :sub_category => nil}
   for i in 0...N do
-    reche = {:label => hierarchy[N-i], :sub_category => reche}
+    reche = {:label => hierarchy[N-1-i], :sub_category => reche}
   end
   reche
 end
