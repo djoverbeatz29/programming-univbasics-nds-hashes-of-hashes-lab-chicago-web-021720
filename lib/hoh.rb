@@ -47,8 +47,8 @@ reche = {}
 N = hierarcy.length - 1
 for i in 0...(hierarchy.N) do
   name = hierarchy[i]
-  rech
+  rcopy = reche.clone
   for j in 0..i do
-    
+    rcopy = []
   
 end
