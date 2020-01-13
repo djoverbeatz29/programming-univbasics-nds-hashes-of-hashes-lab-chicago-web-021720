@@ -42,13 +42,15 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
   
-hierarchy = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
-reche = {}
-N = hierarcy.length - 1
-for i in 0...(hierarchy.N) do
-  name = hierarchy[i]
-  rcopy = reche.clone
-  for j in 0..i do
-    rcopy = []
+  hierarchy = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
+  reche = {}
+  N = hierarcy.length - 1
+  for i in 0...(hierarchy.N) do
+    name = hierarchy[i]
+    rcopy = reche.clone
+    for j in 0..i do
+      rcopy = rcopy[:sub_category]
+    end
+
   
 end
