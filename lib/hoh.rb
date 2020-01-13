@@ -43,14 +43,10 @@ def naming_system
   # HoH all the way to Species!
   
   hierarchy = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
-  reche = {}
-  N = hierarcy.length - 1
-  for i in 0...(hierarchy.N) do
-    name = hierarchy[i]
-    rcopy = reche.clone
-    for j in 0..i do
-      rcopy = rcopy[:sub_category]
-    end
-  
-  
+  N = hierarchy.length - 1
+  reche = {:label => hierarchy[N], :sub_category => nil}
+  for i in 0...N do
+    reche = {:label => hierarchy[N-1], :sub_category => reche}
+  end
+  reche
 end
