@@ -41,5 +41,11 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
+  
+hierarchy = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
+reche = {}
+for i in 0...(hierarchy.length - 1) do
+  curr_key = hierarchy[i]
+  curr_subhash = {}
 
 end
