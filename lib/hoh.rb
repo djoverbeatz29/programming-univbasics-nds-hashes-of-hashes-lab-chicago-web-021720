@@ -44,8 +44,9 @@ def naming_system
   
 hierarchy = ["Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
 reche = {}
-for i in 0...(hierarchy.length - 1) do
+N = hierarcy.length - 1
+for i in 0...(hierarchy.N) do
   curr_key = hierarchy[i]
   curr_subhash = {}
-
+  
 end
